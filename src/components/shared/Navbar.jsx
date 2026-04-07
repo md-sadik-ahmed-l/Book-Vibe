@@ -20,7 +20,8 @@ const Navbar = () => {
 
     return (
         <div className='bg-base-100 shadow-sm'>
-            <div className="navbar  container m-auto">
+
+            <div className="navbar container m-auto">
 
                 <div className="navbar-start">
 
