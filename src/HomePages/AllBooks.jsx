@@ -1,5 +1,6 @@
 import React, { use } from 'react';
 import { FaRegStar } from 'react-icons/fa';
+import { Link } from 'react-router';
 
 const booksPromise = fetch('BooksData.json').then(res => res.json());
 
@@ -20,7 +21,7 @@ const AllBooks = () => {
                         books.map((books) => {
                         return ( 
 
-                            <div className="card bg-base-200 p-6 shadow-xl w-80 border border-[#dfdddd]">
+                            <Link to={`/bookDetails/${books.bookId}`} className="card bg-base-200 p-6 shadow-xl w-80 border border-[#dfdddd]">
 
                                 <figure>
                                     <img
@@ -65,7 +66,7 @@ const AllBooks = () => {
 
                                 </div>
 
-                            </div>
+                            </Link>
 
                         )})
                     }
