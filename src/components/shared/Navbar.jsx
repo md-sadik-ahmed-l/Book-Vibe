@@ -47,7 +47,7 @@ const Navbar = () => {
 
                     </div>
 
-                    <a className="font-bold text-3xl">Book Vibe</a>
+                    <a className="font-extrabold text-4xl">Book Vibe</a>
 
                 </div>
 

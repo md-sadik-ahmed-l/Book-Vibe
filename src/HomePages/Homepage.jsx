@@ -1,12 +1,13 @@
 import React from 'react';
 import Banner from './Banner';
-import Books from './Books';
+import AllBooks from './AllBooks';
+
 
 const Homepage = () => {
     return (
         <div>
             <Banner></Banner>
-            <Books></Books>
+            <AllBooks></AllBooks>
         </div>
     );
 };
